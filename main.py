@@ -65,10 +65,8 @@ for user in filtered_users_list:
 # количество пользователей)
 for user in filtered_users_list:
     if len(books) != 0:
-        print("append")
         user['books'].append(books.pop(0))
     else:
-        print("break")
         break
 
 # Получившийся список для записи в json-файл
